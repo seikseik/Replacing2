@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html class="no-js" lang="it" prefix="og: //ogp.me/ns#">
+<head>
+	<!-- ### Completare le variabili SEO ### -->
+	<!--#set var="title_page" value="inserire titolo infografica" -->
+	<!--#set var="description_page" value="inserire descrizione infografica" -->
+	<!--#set var="keywords_page" value="inserire keywords infografica" -->
+	<!--#set var="image_page" value="inserire percorso immagine principale infografica" -->
+	<!--#set var="dir_page" value="_master_infografica" -->
+	<!-- ### fine Completare le variabili SEO ### -->
+
+
+	<!-- *** head di sistema *** -->
+	<!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/head.shtml"-->
+	<!-- *** fine head di sistema *** -->
+
+
+	<!-- ### custom CSS, JS ### -->
+	<link  rel="stylesheet" href="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/<!--#echo var="dir_page"-->
+	/libs/infografica.css?v=<!--#flastmod virtual="/la-lettura/infografiche-visual-data/immagini-animazioni/${dir_page}/libs/infografica.css" -->">
+	<script src="//static2.corriereobjects.it/la-lettura/infografiche-visual-data/immagini-animazioni/<!--#echo var="dir_page" -->/libs/infografica.js?v=<!--#flastmod virtual="/la-lettura/infografiche-visual-data/immagini-animazioni/${dir_page}/libs/infografica.js" -->"></script> -->
+
+	<!-- Custom resource for localDev -->
+	<link rel="stylesheet" href="infografica.css">
+	<script type="text/javascript" src="infografica.js"></script>
+	<!-- ### fine custom CSS, JS ### -->
+
+	<!-- ### inserire qui sotto i Custom Assets [css,js] ### -->
+
+
+</head>
+
+<body id="visualdata" class="whitelabel">
+	<!-- *** header di sistema *** -->
+	<!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/top.shtml"-->
+	<!-- *** fine header di sistema *** -->
+
+
+	<!-- ### CONTENT ### -->
+
+	<!-- Intro -->
+	<div class="container">
+		<p>
+			Recent developments in robotics, artificial intelligence, and machine learning are driving the
+			world to what is now called <a id="bluehigh" href="http://www3.weforum.org/docs/WEF_Future_of_Jobs.pdf"><strong>“the fourth industrial revolution"</strong></a>.
+			<br>
+			People are pushed towards using and interacting with technology in new ways, such as
+			understanding and dealing with the complexity of the entangled world we are living in.
+		</p>
+	</div>
+
+	<div class="separator"></div>
+
+	<div class="container">
+		<h2 class="text-left">
+			<strong>
+				“We stand on the brink of a technological revolution that will
+				fundamentally alter the way we live, work, and relate to one another.
+				In its scale, scope, and complexity, the transformation will be unlike
+				anything humankind has experienced before.”
+			</strong>
+		</h2>
+
+		</div>
+		<div class="container quotAuthor">
+		<h4 class="text-right">
+			<strong id="author">Klaus Schwab</strong> <br>
+			<em id="authRole">Founder and Executive Chairman <br>of the World Economic Forum</em>
+		</h4>
+	</div>
+
+	<div class="separator"></div>
+
+	<div class="container" id="def">
+		<div class="" id="aidef">
+			<h2>Rise of A.I.</h2>
+			<p>
+				The rise of <span>
+					<a id="bluehigh" href="#" data-toggle="tooltip" data-placement="top"
+					title="Feature of any device that allows it to perceives its environment
+					and takes actions that maximize its chance of success at some goal.">
+					Artificial intelligence (A.I.)</a></span> is dominating
+					headlines with news associated with AI research and
+					product development fueled by large investments coming
+					from both private corporations and governments.
+				</p>
+				<div class="blueruler"></div>
+			</div>
+			<div class="" id="robotdef">
+				<h2>Robotics</h2>
+				<p>
+					Investment in <span ><a id="greenhigh" href="#"
+						data-toggle="tooltip" data-placement="top"
+						title="The technology by which a process or procedure is performed without human assistance."
+						>Robotics</a></span> have been a steadily growing trend
+						in the last year. In 2015, driven by A.I. enhancements there
+						was a surge on said investment that almost doubled the funds.
+						<br><br>
+						<div class="greenruler"></div>
+					</p>
+				</div>
+			</div>
+
+			<div class="separator"></div>
+
+			<div class="container">
+				<img src="assets/risingdef.png" alt="Global GDP forecast">
+			</div>
+			<div class="container quotAuthor">
+				<p class="text-right">
+					<a href="https://www.cbinsights.com/" id="source">
+						CIBINSIGHT
+					</a>
+				</p>
+			</div>
+
+			<div class="separator"></div>
+
+			<div class="container" id="investments">
+				<div class="fulltitle">
+					<h1 >THE ECONOMY OF THE FUTURE</h1>
+				</div>
+
+			</div>
+			<div class="container ">
+					<p class="cols">
+						According to an analysis by Pwc Research AI could contribute up to
+						<span id="bluehigh">$15.7 trillion</span> to the global economy in 2030, more than the current
+						output of China and India combined. Of this, <span id="bluehigh">$6.6 trillion</span> is likely to
+						from consumption side effects.
+					</p>
+
+					<p class="cols twoCol">
+						According to the analysis, global GDP will be up to 14% higher in 2030 as a
+						result of the accelerating development and take-up of AI – the equivalent of
+						an additional <span id="bluehigh">$15.7 trillion</span>.
+					</p>
+			</div>
+
+
+			<div class="separator"></div>
+
+			<div class="container" id="">
+				<div class="fulltitle">
+					<h3><strong>A driver of change</strong></h3>
+				</div>
+			</div>
+			
+			<div class="container">
+				<p>Four ways of increasing revenues through A.I. & Robotics.</p>
+			</div>
+
+		<div class="separator"></div>
+
+		<!-- Definitions SVG -->
+		<!-- <div class="container intrinsic-container intrinsic-container-gdp">
+		<iframe src="assets/svg/defs/index.html" class="" allowfullscreen></iframe>
+	</div> -->
+	<div class="container quotAuthor">
+			<p class="text-right" >
+				<a href="http://www.pwc.com/gx/en/issues/analytics/assets/pwc-ai-analysis-sizing-the-prize-report.pdf" id="source">
+					PWC RESEARCH
+				</a>
+			</p>
+	</div>
+
+	<div class="separator"></div>
+
+	<div class="container quotation" id="padExc">
+		<div>
+			<h3><strong>Global GDP forecast</strong></h3>
+			<p>Economies that will be boosted by AI effects.</p>
+		</div>
+
+	</div>
+
+	<div class="infografica">
+		<img src="assets/gdp_forecast.png" alt="Global GDP forecast">
+</div>
+<div class="container quotAuthor" id="source">
+	<p class="text-right">
+	<a href="http://www.pwc.com/gx/en/issues/analytics/assets/pwc-ai-analysis-sizing-the-prize-report.pdf" id="source">
+		PWC RESEARCH
+	</a>
+</p>
+</div>
+
+<div class="separator"></div>
+
+<div class="container">
+	<h1 class="fulltitle"><strong>WORKFORCE REVOLUTION</strong></h1>
+	<p>
+		The growing trend of this "new industrial revolution" affects every country in
+		different ways, even if it impacts workforce on a global scale. <br>
+		Each country has a different number of employee and they generate different
+		wages, is in a different context and has a different potential, but the rise of
+		automation in positive or at least steady in every place.
+	</p>
+	<div class="legenda">
+		<img src="assets/ioSonoLegenda.png" alt="">
+	</div>
+</div>
+
+<div class="infografica">
+	<!-- <iframe src="assets/svg/impact_work/index.html" class="" allowfullscreen></iframe> -->
+	<div class="container-fluid" id="source">
+		<a href="https://public.tableau.com/profile/mckinsey.analytics#!/vizhome/InternationalAutomation/Sheet19" id="source">
+			MCKINSEY
+		</a>
+	</div>
+</div>
+
+<div class="separator"></div>
+
+<div class="container quotation" id="padExc">
+	<h2 id="potential"><strong>The potential impact in the U.S.A.</strong></h1>
+		<p>
+			The automation potential is a percentage that highlights of how many employee could be
+			assisted with a robot or an AI. The U.S.A. are taken as an example for this section for the high rank of potential automation and research investments.
+		</p>
+	</div>
+
+	<div class="infografica treemapW" id="potentialpar">
+		<!-- <iframe src="assets/svg/treemap/index.html" class="aspectratio" allowfullscreen></iframe> -->
+		<div class="container-fluid" id="source">
+			<a href="https://public.tableau.com/profile/mckinsey.analytics#!/vizhome/InternationalAutomation/Sheet19" id="source">
+				MCKINSEY
+			</a>
+		</div>
+	</div>
+
+	<div class="separator"></div>
+
+	<div class="container" id="feasible">
+		<h2><strong>The feasible impact</strong></h2>
+		<br>
+		<p>
+			Every job could be divided in a list of tasks common for each sector.
+			That division can be used to show how many hours (already
+			on percentage on that task total) could be automatize, and
+			how much it could impact on said task.
+		</p>
+
+		<div class="legenda">
+			<img id="feaslegend" src="assets/task-legenda.png" alt="">
+		</div>
+	</div>
+
+	<div class="infografica treemapW" id="tasktop">
+		<!-- <iframe src="assets/svg/task/index.html" class="aspectratio" allowfullscreen></iframe> -->
+		<div class="container-fluid" id="source">
+			<a href="https://public.tableau.com/profile/mckinsey.analytics#!/vizhome/AutomationBySector/WhereMachinesCanReplaceHumans" id="source">
+				MCKINSEY
+			</a>
+		</div>
+	</div>
+
+	<div class="separator"></div>
+
+	<div class="container" id="">
+				<h1 class="fulltitle"><strong>PUBLIC OPINION</strong></h1>
+				<p>
+					Many respondents in a recent Pew Research Center canvassing of technology experts predicted that advances in
+					robotics and computing applications will result in a net displacement of jobs over the coming decades – with
+					potentially profound implications for both workers and society as a whole.
+				</p>
+	</div>
+
+	<div class="container infografica" >
+				<h3><span id="quest">?</span><strong>Will robots and computers do much of the
+					work currently done by humans in 50 years?</strong></h3>
+					<img src="assets/public_opinion12.png" alt="Public Opinion survey 1">
+
+					<div class="separator"></div>
+
+				<h3><span id="quest">?</span><strong>Will your current job exist in 50 years?</strong></h3>
+				<img src="assets/public_opinion_2.png" alt="Public Opinion survey 1"/>
+				<div class="separator"></div>
+	</div>
+
+	<div class="container infografica" >
+				<h2><strong>Experts opinion</strong></h2>
+
+				<img src="assets/experts_opinion.png" alt="Public Opinion survey 1" id="expImgfix">
+		<div class="container-fluid" id="source">
+			<a href="http://assets.pewresearch.org/wp-content/uploads/sites/14/2017/05/02135719/PI_2017.05.03_Future-of-Job-Skills_FINAL.pdf" id="source">
+				PEW RESEARCH CENTER
+			</a>
+		</div>
+	</div>
+
+	<div class="separator"></div>
+
+	<div class="container">
+			<div class="" id="smallquot">
+				<p class="">
+					“The issue is not that automation will render the vast majority of the population
+					unemployable,” he says. Instead, jobs created by AI could come too slowly, pay too little, and
+					exclude the least skilled who need them most. Workers who lack the skills or opportunity to
+					quickly find new, decent jobs enabled by automation could find themselves effectively
+					excluded from the job market. That “leaves us with the worry that the only reason we will
+					still have our jobs is because we are willing to do them for lower wages."
+				</p>
+				<h3 class="text-right">
+					<strong id="author">Jason Furman</strong>
+				</h3>
+				<h4 class="text-right">
+					<em id="authRole">Obama's chief economist</em>
+				</h4>
+			</div>
+	</div>
+
+	<div class="container">
+				<h3>
+					<strong>
+						Past waves of technological advancement and demographic
+						change have led to increased prosperity, productivity and job
+						creation. This does not mean, however, that these transitions were
+						free of risk or difficulty, now it’s don’t even clear if we can
+						compare this technological revolution to past ones.
+						Anyway, anticipating and preparing for the current transition is
+						critical, and education should have a key role in this process.
+					</strong>
+				</h3>
+	</div>
+
+
+	<!-- *** footer di sistema *** -->
+	<!--#include virtual="/includes2013/Master-Template/la-lettura/visualdata/footer.shtml"-->
+	<!-- *** fine footer di sistema *** -->
+</body>
+</html>

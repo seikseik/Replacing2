@@ -1,0 +1,211 @@
+
+
+
+/*Hero - independent website version*/
+
+/* @media only screen and (min-width: 1200px) {
+  #herovideo {
+    margin-top: -7%;
+  }
+  .postitolo {
+    position: absolute;
+    margin-top: 6%;
+    z-index: 2;
+  }
+  #titolo {
+  }
+  #sottotitolo {
+    font-size: 2.5vw;
+    position: relative;
+    margin: 10% auto;
+    margin-left: 22%;
+  }
+}
+*/
+
+/* @media only screen and (max-width: 900px) {
+  #herovideo {
+    width: 150%;
+    left: -24%;
+    top: 15%;
+  }
+  .postitolo {
+    position: absolute;
+    bottom: 0%;
+    z-index: 2;
+  }
+  #titolo {
+
+  }
+  #sottotitolo {
+    font-size: 8.5vw;
+    position: relative;
+    margin-top: 0%;
+  }
+} */
+
+/*navbar*/
+/* .affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.affix ~ .container-wide {
+  position: relative;
+  top: 50px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  nav {
+    display: none;
+  }
+} */
+
+/*reponsive iframe*/
+/* .intrinsic-container {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+} */
+
+/* 16x9 Aspect Ratio */
+/* .intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+} */
+
+/* 4x3 Aspect Ratio */
+/* .intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+.intrinsic-container-tree {
+  padding-bottom: 62%;
+}
+@media only screen and (max-width: 1400px) {
+  .intrinsic-container-tree {
+    padding-bottom: 80%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .intrinsic-container-tree {
+    padding-bottom: 95%;
+  }
+}
+.intrinsic-container-impact {
+  padding-bottom: 50%;
+}
+.intrinsic-container-null {
+  padding-bottom: 28%;
+}
+.intrinsic-container-gdp {
+  padding-bottom: 35%;
+}
+.intrinsic-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.intrinsic-containerRise iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 50%;
+}
+
+iframe {
+  overflow:hidden;
+  border: none;
+} */
+
+/*hero*/
+/* #hero {
+  width: 100vw;
+  height: 100vh;
+  padding: none;
+  position: relative;
+  background-color: #DFE3E8;
+}
+
+.poSfera {
+
+}
+#herovideo {
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  opacity: 1;
+  mix-blend-mode: multiply;
+  margin: 0% auto;
+  margin-top: 0;
+  font-family: 'Karla', sans-serif;
+  position: absolute;
+}
+.postitolo {
+  position: absolute;
+  z-index: 2;
+  padding-left: 2%;
+}
+#titolo {
+  font-weight: bold;
+  position: relative;
+  margin-top: 10%;
+  font-size: 18vw;
+  font-size: 1em;
+  color: white;
+}
+#sottotitolo {
+  font-size: 4.5vw;
+  font-size: 0.8rem;
+  position: relative;
+  margin-bottom: 10%;
+} */
+
+/*Footer*/
+/* .footer {
+  font-size: 1em;
+  padding: 5%;
+  background-color: #DEDEDE;
+}
+.density, .polimi {
+  width: 100%;
+}
+#density {
+  width: 28%;
+  margin-top: 10%;
+  height: auto;
+}
+#polimi {
+  width: 70%;
+  margin-left: 0%;
+  margin-top: 20%;
+  margin-bottom: 5%;
+  height: auto;
+}
+footer a {
+  color: #212529;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #2ecc71;
+  text-decoration-style: dashed;
+}
+footer a:selected {
+} */
+
+
+/*Animated gradient background effects
+
+ .wrapper {
+  margin: 0 auto;
+  background-color: transparent;
+  -webkit-transition: background .5s ease-in-out;
+  transition: background-color 1s ease;
+} */

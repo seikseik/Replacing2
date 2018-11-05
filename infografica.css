@@ -1,0 +1,547 @@
+
+@font-face {
+    font-family: "main-regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.woff") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerarg-webfont.svg#BreraRegularttf") format("svg");}
+
+
+@font-face {
+    font-family: "main-light";
+    font-style: normal; 
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/breralt-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/breralt-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/breralt-webfont.woff") format("woff"),
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/breralt-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/breralt-webfont.svg#BreraLightttf") format("svg");}
+
+
+@font-face {
+    font-family: "title-bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.woff?v=s201804061620") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/solferino/solferinotext-bold-webfont.svgttf") format("svg");}
+
+
+
+@font-face {
+    font-family: "main-condensed_regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.woff") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brecnrg-webfont.svg#BreraCondensedRegularttf") format("svg");
+
+}
+
+@font-face {
+    font-family: "main-bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.eot");
+    src: url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.eot?#iefix") format("embedded-opentype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.woff") format("woff"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.ttf") format("truetype"), 
+         url("//css2.corriereobjects.it/includes2013/LIBS/css/fonts/brera/brerabd-webfont.svg#BreraRegularttf") format("svg");}
+
+
+
+
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: transparent;
+}
+img {
+  width: 100%;
+}
+/* #expImgfix {
+  max-width: 96%;
+} */
+.container {
+  display: block;
+  margin: 0% auto;
+  width: 75%;
+  /*align-items: center;*/
+  /*padding-top: 10%;
+  padding-bottom: 5%;*/
+}
+.midContainer {
+  width: 75%;
+  margin-left: 17%;
+}
+.row {
+  display: block;
+  width: 100%;
+}
+.center {
+  justify-content: center;
+}
+.midPar {
+  width: 55%;
+}
+.conclusion {
+  width: 70%;
+}
+.columns {
+  display: flex;
+}
+.col, .colTask {
+  width: 45%;
+  /* word-wrap: break-word; */
+}
+
+ .colTask {
+  width: 53%;
+     position:relative;
+     bottom:50px;
+     right:30px;
+  /* word-wrap: break-word; */
+}
+
+
+
+.twoCol {
+  margin-left: 5%;
+  /* -webkit-justify-content: space-between;
+   display: flex;
+   justify-content: space-between; */
+}
+.infografica {
+
+}
+.container-wide {
+  overflow: hidden;
+  padding: 5% 0%;
+  margin: 0;
+  background-color: whitesmoke;
+}
+.noBack{
+  padding: 0% 0% 5% 0%;
+  background-color: transparent;
+}
+#investments, #impact, #pootential, #feasible, #opinion, #source {
+  /*padding: 0% 10%;*/
+}
+
+p {
+  word-wrap: break-word;
+    color:#404040;
+        font-size:1.1rem;
+
+}
+
+/*introduction*/
+#intro {
+  padding-top: 5%;
+}
+#intro div {
+  border: 2px #FF6961;
+}
+#intro row {
+  border: 2px #87F9FF;
+}
+#robotdef, #aidef {
+}
+#robotdef {
+  margin-left: 10%;
+}
+.greenruler, .blueruler {
+  width: 100%;
+  min-height: 15px;
+}
+.blueruler {
+  background-color: #187F8B;
+}
+.greenruler {
+  background-color: #52A7B1;
+}
+.btn {
+  color: white;
+  background-color: #333333;
+  margin: 0% auto;
+  border-radius: 0;
+}
+.btn-primary {
+  border: none;
+}
+.btn:hover {
+  color: #333333;
+  background-color: white;
+  border: 2px #333333;
+}
+#aibutton, #robotbutton {
+  border-radius: 100%;
+  margin-left: 45%;
+}
+
+
+#employees_button, #wages_button {
+  border-radius: 0%;
+}
+
+/*svgtest*/
+#cerchio:hover {
+  fill: #333333;
+  width: 120px;
+  stroke: white;
+  transition: .5s ease-out;
+}
+
+/*Quotation*/
+.introQuotation {
+  width: 70%;
+   
+}
+.quotAuthor {
+  display: flex;
+  justify-content: flex-end;
+}
+#smallquot {
+  margin-left: 40%;
+}
+
+.quotation {
+  /* background-color: #DFE3E8; */
+  /* padding: 6% 5%; 10% */
+}
+.quotationgpad {
+  /* background-color: #DFE3E8; */
+  padding: 6% 10%;
+}
+
+#author {
+  font-style: bold;
+  line-height: 3;
+}
+#authRole {
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* Workforce revolution */
+.legendaWork{
+  width: 15vw;
+  height: 100%;
+  padding-top: 2%;
+  margin-left: 18%;
+}
+
+.legendaWork2{
+  width: 14vw;
+  height: 100%;
+    position:relative;
+    bottom:200px;
+    
+}
+
+
+
+.legendaFeas {
+  max-width: 70%;
+  height: auto;
+}
+/*Treemap*/
+#potential {
+  /*margin-left: 6%;*/
+}
+#potentialpar {
+  /*margin-top: -3%;*/
+  padding-top: 0;
+}
+
+.treemapW {
+  width: 100%;
+}
+
+/*feasible impact*/
+#feaslegend {
+  margin-top: 5%;
+  padding-right: 0%;
+}
+#heatmap-container {
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+#tasktop {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+
+/*Typography*/
+/* Fonts */
+body {
+  font-family: 'main-light';
+  }
+
+ h1 h2 {
+  font-family: 'main-bold';
+  font-weight: normal;
+}
+/* Sizes */
+body {
+  font-size: 1.1rem;
+}
+.fulltitle {
+    color:#282828;	
+  font-size: 1.8rem;
+}
+.economyTitle, .title {
+  font-size: 2rem;
+}
+.introQuotation {
+    font-family: title-bold;
+    font-weight: normal;
+     color:#282828;	
+  font-size: 1.8rem;
+     text-align: left;
+}
+
+
+.subtitle {
+     font-family: title-bold;
+    font-weight: normal;
+align-content: center;
+     color:#282828;	
+  font-size: 1.3rem;
+}
+
+a {
+  /*color: #212529;*/
+  color: darkred;
+  text-decoration: none;
+}
+a:hover {
+  /*color: #2ecc71;*/
+  color: red;
+  text-decoration-style: dotted;
+}
+
+.text-right{
+  text-align: right;
+
+}
+
+#def a {
+}
+#bluehigh {
+  font-weight: bold;
+  color: #187F8B;
+}
+#greenhigh {
+  font-weight: bold;
+  color: #52A7B1;
+}
+#source {
+  text-decoration:underline;
+  color: grey;
+  font-family: 'Karla';
+  font-weight: bold;
+    font-size: 0.6rem;
+}
+#source:hover {
+  text-decoration: underline;
+  color: black;
+}
+.container-wide #source {
+  color: dimgrey;
+}
+.container-wide #source:hover {
+  color: black;
+}
+
+
+.fulltitle {
+    font-family: main-bold;
+  display: block;
+  width: 100%;
+  /* letter-spacing: 4px; */
+  margin-bottom: 3%;
+}
+
+
+#smallquot {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+/*big question marks in opinion*/
+#quest {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-right: 0%;
+  margin-left: 0%;
+}
+.so {
+  font-size: 6rem;
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+/*Various elements*/
+.separator {
+  min-width: 100%;
+  height: 3%;
+  /* background-color: transparent; */
+  background-color: lightGrey;
+  margin: 5% 0% 0% 0%;
+}
+
+.separator2 {
+  min-width: 100%;
+  height: 1%;
+  /* background-color: transparent; */
+  background-color: lightGrey;
+  margin: 5% 0% 0% 0%;
+}
+
+
+#empBtn, #wageBtn{
+  font-family: main-light;
+  font-weight: normal;
+    font-size: 1rem;
+}
+.treemapBtn {
+  color: #333333;
+}
+.empBtnSel, .wageBtnSel {
+  color: white;
+}
+
+<br><br>
+
+
+/*Responsive*/
+
+@media only screen and (max-width:1380px) {
+/* Layout */
+  .container {
+    padding: 0% 7%;
+    width: 95%;
+  }
+   img{
+    width: 100%;
+  }
+  .midPar {
+    width: 75%;
+  }
+  .conclusion {
+    width: 75%;
+  }
+  .columns {
+    display: block;
+  }
+  .col {
+    width: 75%;
+    max-width: 530px;
+  }
+  .twoCol {
+    margin-left: 0%;
+  }
+  .container-wide {
+    padding: 5% 0%;
+    margin: 0;
+  }
+  .midContainer {
+    width: 85%;
+    margin: 0% auto;
+  }
+  .infografica {
+    /* padding: 5% 0%; */
+  }
+  .containerWork {
+    overflow: scroll;
+    padding: 5% 0%;
+    margin: 0;
+  }
+  .graph {
+    min-width: 965px;
+    margin-left: -540px;
+    /* overflow-x: scroll; */
+  }
+  .quotAuthor {
+    margin-right: 0%;
+  }
+  .blueruler, .greenruler {
+    margin-top: -3%;
+  }
+  #robotdef {
+    margin-left: 0%;
+    margin-top: 15%;
+  }
+  .quotAuthor {
+    margin-right: 5%;
+  }
+  #smallquot {
+    margin-left: 5%;
+  }
+  .legendaWork {
+    width: 40vw;
+    max-width: 250px;
+    /* margin-left: 40%; */
+  }
+  .legendaFeas {
+    width: 60vw;
+  }
+  .colTask {
+    width: 100%;
+  }
+  /* expertopinion */
+  #expImgfix {
+    margin: 5% 0%;
+    width: 100%;
+  }
+  #tasktop {
+    margin-top: 0%;
+    margin-left: 0%;
+  }
+
+
+/* Typography */
+  body{
+    font-size: 1rem;
+  }
+    h1{
+        font-size: 1.5rem;
+    }
+    
+  .fulltitle {
+    font-size: 1.5rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+  }
+  .economyTitle {
+    font-size: 2rem;
+  }
+  #source {
+    font-size: 0.5rem;
+  }
+
+  .noMobile {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
